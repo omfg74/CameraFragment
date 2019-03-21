@@ -8,6 +8,7 @@ android {
         minSdkVersion project.minSdk
         targetSdkVersion project.sdk
 
+        j
         versionCode 1
         versionName "1.0"
     }

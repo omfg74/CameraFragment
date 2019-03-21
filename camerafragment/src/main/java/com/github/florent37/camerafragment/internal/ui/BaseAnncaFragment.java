@@ -153,11 +153,11 @@ public abstract class BaseAnncaFragment<CameraId> extends Fragment implements Ca
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View decorView = ((Activity) container.getContext()).getWindow().getDecorView();
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.ICE_CREAM_SANDWICH_MR1) {
-            int uiOptions = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN;
-            decorView.setSystemUiVisibility(uiOptions);
-        }
+//        View decorView = ((Activity) container.getContext()).getWindow().getDecorView();
+//        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.ICE_CREAM_SANDWICH_MR1) {
+//            int uiOptions = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN;
+//            decorView.setSystemUiVisibility(uiOptions);
+//        }
 
         return inflater.inflate(R.layout.generic_camera_layout, container, false);
     }
